@@ -1,0 +1,56 @@
+.heading {
+    padding: 0 0;
+}
+
+.logo {
+    text-align: center;
+}
+
+.logo a {
+    color: gray;
+    font-family: Segoe Script, Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+
+.navbar {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.navbar ul {
+    list-style: none;
+}
+
+.navbar li {
+    display: inline;
+}
+
+.navbar a {
+    color: gray;
+    font-size: 15px;
+    font-weight: thin;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 0 60px;
+    margin-right: 40px;
+}
+
+.navbar a:hover {
+    font-size: 17px;
+}
+
+.innola {
+    float: right;
+    width: 100%;
+}
+
+.bio {
+    color: #
+}
+
+
+element.style {
+
+}
