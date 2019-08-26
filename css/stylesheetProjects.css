@@ -34,18 +34,17 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-transform: uppercase;
     text-decoration: none;
-    padding: 0 60px;
-    margin-right: 40px;
+    padding: 0 64px;
+    margin-right: 35px;
 }
 
 .navbar a:hover {
-    font-size: 17px;
+    font-size: 16px;
 }
 
-.sidedescription {
-    writing-mode: vertical-rl;
-    text-orientation: mixed;
-    height: 300px;
-    width: 150px;
-    background:lightpink;
+.projectnames {
+    text-transform: uppercase;
+    font-size: 25px;
+    color: gray;
 }
+
