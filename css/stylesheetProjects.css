@@ -12,8 +12,6 @@
     text-decoration: none;
 }
 
-
-
 .navbar {
     text-align: center;
     padding-top: 20px;
@@ -45,8 +43,27 @@
 .projectnames {
     text-transform: uppercase;
     font-size: 25px;
-    color: gray;
+    color: #363635;
 }
+
+
+.viewlivebtn {visibility: hidden;}
+
+.viewlivebtn:hover {visibility: visible;}
+/*
+.projectthumbnails:hover {
+    opacity: .5;
+}
+
+.viewlivebtn {
+    opacity: .001;
+}
+
+.viewlivebtn:hover {
+    opacity: 1;
+}
+*/
+
 
 
 .overlay {
