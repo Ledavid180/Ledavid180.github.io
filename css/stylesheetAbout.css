@@ -38,26 +38,33 @@
 }
 
 .navbar a:hover {
-    transform: scale(1.085);
+  transform: scale(1.085);
+}
+
+@media (max-width: 426px) {
+  .about {
+      ;
+  }
 }
 
 .bio {
-    display: inline-block;
-    width: 300px;
-    height: 400px;
-    background: white;
-    color: #363635;
-    margin: -587px 362px 10px;
+  position: absolute;
+  height: 280px;
+  width: 300px;
+  padding: 28px 15px;
+  z-index: 1;
+  background: white;
+  color: #363635;
 }
 
 .overlay {
-    position: absolute;
-    top: 0;left: 0;right: 0;bottom: 0;
-    z-index: 1;
-    background: #fff;
-    transition: all 500ms ease-in-out;
-    opacity: 1;
-    pointer-events: none;
+  position: absolute;
+  top: 0;left: 0;right: 0;bottom: 0;
+  z-index: 1;
+  background: #fff;
+  transition: all 500ms ease-in-out;
+  opacity: 1;
+  pointer-events: none;
 }
 
 .fade {
@@ -65,38 +72,38 @@
 }
 
 .lds-heart {
-    top: 300px;
-    left: 700px;
-    display: inline-block;
-    position: relative;
-    width: 64px;
-    height: 64px;
-    transform: rotate(45deg);
-    transform-origin: 32px 32px;
+  top: 50%;
+  left: 50%;
+  display: inline-block;
+  position: relative;
+  width: 64px;
+  height: 64px;
+  transform: rotate(45deg);
+  transform-origin: 32px 32px;
 }
 .lds-heart div {
-    position: absolute;
-    width: 26px;
-    height: 26px;
-    background: #E6D2C9;
-    animation: lds-heart 1.2s infinite cubic-bezier(0.215, 0.61, 0.355, 1);
+  position: absolute;
+  width: 26px;
+  height: 26px;
+  background: #E6D2C9;
+  animation: lds-heart 1.2s infinite cubic-bezier(0.215, 0.61, 0.355, 1);
 }
 .lds-heart div:after,
 .lds-heart div:before {
-    content: " ";
-    position: absolute;
-    display: block;
-    width: 26px;
-    height: 26px;
-    background: #E6D2C9;
+  content: " ";
+  position: absolute;
+  display: block;
+  width: 26px;
+  height: 26px;
+  background: #E6D2C9;
 }
 .lds-heart div:before {
-    left: -17px;
-    border-radius: 50% 0 0 50%;
+  left: -17px;
+  border-radius: 50% 0 0 50%;
   }
   .lds-heart div:after {
-    top: -17px;
-    border-radius: 50% 50% 0 0;
+  top: -17px;
+  border-radius: 50% 50% 0 0;
   }
   @keyframes lds-heart {
     0% {

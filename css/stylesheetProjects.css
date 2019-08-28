@@ -46,24 +46,9 @@
     color: #363635;
 }
 
-
-.viewlivebtn {visibility: hidden;}
-
-.viewlivebtn:hover {visibility: visible;}
-/*
-.projectthumbnails:hover {
+.imagehover:hover {
     opacity: .5;
 }
-
-.viewlivebtn {
-    opacity: .001;
-}
-
-.viewlivebtn:hover {
-    opacity: 1;
-}
-*/
-
 
 
 .overlay {
@@ -81,8 +66,8 @@
 }
 
 .lds-heart {
-    top: 300px;
-    left: 700px;
+    top: 50%;
+    left: 50%;
     display: inline-block;
     position: relative;
     width: 64px;
