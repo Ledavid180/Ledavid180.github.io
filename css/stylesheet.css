@@ -8,6 +8,26 @@
     text-decoration: none;
 }
 
+@media (max-width: 426px) {
+  .logo a {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 376px) {
+  .logo a {
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 321px) {
+  .logo a {
+    font-size: 20px;
+  }
+}
+
+
+
 
 .navbar {
     text-align: center;
@@ -16,6 +36,13 @@
 
 .navbar ul {
     list-style: none;
+}
+
+
+@media (max-width: 426px) {
+  .navbar ul {
+    padding-left: 0;
+  }
 }
 
 .navbar li {
@@ -38,11 +65,36 @@
     transform: scale(1.085);
 }
 
+
+@media (max-width: 426px) {
+  .navbar a {
+    margin-right: 20px;
+  }
+}
+
+@media (max-width: 376px) {
+  .navbar a {
+    margin-right: 10px;
+  }
+}
+
+@media (max-width: 321px) {
+  .navbar a {
+    margin-right: 12px;
+    font-size: 13px;
+  }
+}
+
 .hero {
     position: relative;
     padding-top: 60px;
 }
 
+@media (max-width: 426px) {
+  .hero {
+    padding-top: 0;
+  }
+}
 .skewnow {
     position: absolute;
     width: 100%;
@@ -74,6 +126,13 @@
     border: 20px solid rgb(253, 253, 253);
 }
 
+@media (max-width: 426px) {
+  .me {
+    width: 80%;
+    margin-left: 32px;
+  }
+}
+
 .title {
     color: #363635;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -81,6 +140,31 @@
     font-size: 50px;
     text-transform: uppercase;
     
+}
+
+@media (max-width: 769px) {
+  .title {
+    font-size: 45px;
+    padding-top: 40px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 426px) {
+  .title {
+    font-size: 30px;
+    text-align: center;
+    padding-top: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width: 376px) {
+  .title {
+    font-size: 20px;
+    text-align: center;
+  }
 }
 
 .overlay {

@@ -12,6 +12,11 @@
     text-decoration: none;
 }
 
+@media (max-width: 426px) {
+  .logo a {
+    font-size: 20px;
+  }
+}
 
 .navbar {
     text-align: center;
@@ -20,6 +25,12 @@
 
 .navbar ul {
     list-style: none;
+}
+
+@media (max-width: 426px) {
+  .navbar ul {
+    padding-left: 0;
+  }
 }
 
 .navbar li {
@@ -42,8 +53,35 @@
 }
 
 @media (max-width: 426px) {
+  .navbar a {
+    margin-right: 20px;
+  }
+}
+
+@media (max-width: 376px) {
+  .navbar a {
+    margin-right: 10px;
+  }
+}
+
+@media (max-width: 321px) {
+  .navbar a {
+    margin-right: 12px;
+    font-size: 13px;
+  }
+}
+
+
+
+@media (max-width: 426px) {
   .about {
-      ;
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .innola {
+    width: 85%;
   }
 }
 
@@ -52,9 +90,47 @@
   height: 280px;
   width: 300px;
   padding: 28px 15px;
-  z-index: 1;
   background: white;
   color: #363635;
+  top: -39px;
+  right: 210px;
+}
+
+@media (max-width: 1025px) {
+  .bio {
+    top: -16px;
+    right: -10px;
+  }
+}
+
+@media (max-width: 769px) {
+  .bio {
+    top: -19px;
+    right: 22px;
+  }
+}
+
+@media (max-width: 426px) {
+  .bio {
+    top: 224px;
+    left: -71px;
+  }
+}
+
+@media (max-width: 376px) {
+  .bio {
+    width: 250px;
+    top: 195px;
+    left: -71px;
+  }
+}
+
+@media (max-width: 321px) {
+  .bio {
+    width: 250px;
+    top: 165px;
+    left: -71px;
+  }
 }
 
 .overlay {
