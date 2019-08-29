@@ -1,31 +1,53 @@
-.heading {
-    padding: 0 0;
-}
-
 .logo {
     text-align: center;
-}
-
-.logo a {
+  }
+  
+  .logo a {
     color: #363635;
     font-family: Segoe Script, Arial, Helvetica, sans-serif;
     text-decoration: none;
-}
-
-.navbar {
+  }
+  
+  @media (max-width: 426px) {
+    .logo a {
+      font-size: 30px;
+    }
+  }
+  
+  @media (max-width: 376px) {
+    .logo a {
+      font-size: 25px;
+    }
+  }
+  
+  @media (max-width: 321px) {
+    .logo a {
+      font-size: 20px;
+    }
+  }
+  
+  .navbar {
     text-align: center;
     padding-top: 20px;
-}
-
-.navbar ul {
+  }
+  
+  .navbar ul {
     list-style: none;
-}
-
-.navbar li {
-    display: inline;
-}
-
-.navbar a {
+  }
+  
+  
+  @media (max-width: 426px) {
+    .navbar ul {
+      padding-left: 0;
+    }
+  }
+  
+  .navbar li {
+      display: inline;
+  }
+  
+  
+  .navbar a {
     color: #363635;
     font-size: 15px;
     font-weight: thin;
@@ -34,18 +56,37 @@
     text-decoration: none;
     display: inline-block;
     margin-right: 40px;
-}
-
-.navbar a:hover {
+  }
+  
+  .navbar a:hover {
     transform: scale(1.085);
-}
+  }
+  
+  
+  @media (max-width: 426px) {
+    .navbar a {
+      margin-right: 20px;
+    }
+  }
+  
+  @media (max-width: 376px) {
+    .navbar a {
+      margin-right: 10px;
+    }
+  }
+  
+  @media (max-width: 321px) {
+    .navbar a {
+      margin-right: 12px;
+      font-size: 13px;
+    }
+  }
 
 .projectnames {
     text-transform: uppercase;
     font-size: 35px;
     color: #363635;
     font-family: HP Simplified, Verdana, sans-serif;
-    margin-top: 0;
 }
 
 .imagehover:hover {
@@ -76,10 +117,36 @@
     background: #E6D2C9;
     border: 1px solid black;
     border-radius: 5px;
+    padding: 5px 5px;
 }
 .viewlivebtn:hover {
     color: #363635;
     text-decoration: none;
+}
+
+.viewcodebtn {
+    color: #363635;
+    text-decoration: none;
+    width: 20px;
+    height: 15px;
+    background: #E6D2C9;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px 5px;
+}
+
+.viewcodebtn:hover {
+    color: #363635;
+    text-decoration: none;
+}
+
+.imagehover ul {
+    list-style: none;
+    margin-top: -30px;
+}
+
+.imagehover li {
+    display: inline;
 }
 
 .overlay {
@@ -106,6 +173,25 @@
     transform: rotate(45deg);
     transform-origin: 32px 32px;
 }
+
+@media (max-width: 768px) {
+.lds-heart {
+    left: 45%;
+}
+}
+
+@media (max-width: 426px) {
+.lds-heart {
+    left: 40%;
+}
+}
+
+@media (max-width: 376px) {
+.lds-heart {
+    top: 40%;
+}
+}
+
 .lds-heart div {
     position: absolute;
     width: 26px;
@@ -113,6 +199,7 @@
     background: #E6D2C9;
     animation: lds-heart 1.2s infinite cubic-bezier(0.215, 0.61, 0.355, 1);
 }
+
 .lds-heart div:after,
 .lds-heart div:before {
     content: " ";
@@ -122,6 +209,7 @@
     height: 26px;
     background: #E6D2C9;
 }
+
 .lds-heart div:before {
     left: -17px;
     border-radius: 50% 0 0 50%;

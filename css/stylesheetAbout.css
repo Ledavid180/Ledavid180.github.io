@@ -150,6 +150,24 @@
   transform: rotate(45deg);
   transform-origin: 32px 32px;
 }
+
+@media (max-width: 768px) {
+  .lds-heart {
+    left: 45%;
+  }
+}
+
+@media (max-width: 426px) {
+  .lds-heart {
+    left: 40%;
+  }
+}
+
+@media (max-width: 376px) {
+  .lds-heart {
+    top: 40%;
+  }
+}
 .lds-heart div {
   position: absolute;
   width: 26px;
