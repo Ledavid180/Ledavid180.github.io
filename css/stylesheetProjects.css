@@ -87,6 +87,10 @@
     font-size: 35px;
     color: #363635;
     font-family: HP Simplified, Verdana, sans-serif;
+    margin-top: 10px;
+}
+.imagehover {
+    position: relative;
 }
 
 .imagehover:hover {
@@ -110,14 +114,16 @@
 }
 
 .viewlivebtn {
-    color: #363635;
+    position: absolute;
+    color: black;
     text-decoration: none;
-    width: 20px;
-    height: 15px;
+    width: 90px;
+    height: 25px;
     background: #E6D2C9;
     border: 1px solid black;
     border-radius: 5px;
     padding: 5px 5px;
+    text-transform: capitalize;
 }
 .viewlivebtn:hover {
     color: #363635;
@@ -125,14 +131,17 @@
 }
 
 .viewcodebtn {
-    color: #363635;
+    position: absolute;
+    color: black;
     text-decoration: none;
-    width: 20px;
-    height: 15px;
+    width: 93px;
+    height: 25px;
     background: #E6D2C9;
     border: 1px solid black;
     border-radius: 5px;
     padding: 5px 5px;
+    margin-left: 100px;
+    text-transform: capitalize;
 }
 
 .viewcodebtn:hover {
@@ -147,6 +156,14 @@
 
 .imagehover li {
     display: inline;
+}
+
+.cardbottom {
+    height: 200px;
+    width: 263px;
+    background: linear-gradient(#E6D2C9, white);
+    padding: 5px 5px;
+    margin-top: 30px;
 }
 
 .overlay {
