@@ -92,20 +92,13 @@
   padding: 28px 15px;
   background: white;
   color: #363635;
-  top: -39px;
+  top: -9px;
   right: 210px;
-}
-
-@media (max-width: 1025px) {
-  .bio {
-    top: -16px;
-    right: -10px;
-  }
 }
 
 @media (max-width: 769px) {
   .bio {
-    top: -19px;
+    top: -5px;
     right: 22px;
   }
 }

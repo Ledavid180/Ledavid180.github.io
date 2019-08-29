@@ -42,14 +42,45 @@
 
 .projectnames {
     text-transform: uppercase;
-    font-size: 25px;
+    font-size: 35px;
     color: #363635;
+    font-family: HP Simplified, Verdana, sans-serif;
+    margin-top: 0;
 }
 
 .imagehover:hover {
     opacity: .5;
 }
 
+.imagehover .viewlivebtn {
+    display: none;
+}
+
+.imagehover:hover .viewlivebtn {
+    display: inline;
+}
+
+.imagehover .viewcodebtn {
+    display: none;
+}
+
+.imagehover:hover .viewcodebtn {
+    display: inline;
+}
+
+.viewlivebtn {
+    color: #363635;
+    text-decoration: none;
+    width: 20px;
+    height: 15px;
+    background: #E6D2C9;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.viewlivebtn:hover {
+    color: #363635;
+    text-decoration: none;
+}
 
 .overlay {
     position: absolute;
