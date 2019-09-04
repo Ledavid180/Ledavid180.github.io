@@ -81,6 +81,10 @@
     font-size: 13px;
   }
 }
+
+.resume {
+  margin-left: 15%;
+}
 .overlay {
     position: absolute;
     top: 0;left: 0;right: 0;bottom: 0;
