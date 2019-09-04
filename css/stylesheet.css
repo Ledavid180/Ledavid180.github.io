@@ -1,3 +1,7 @@
+.heading {
+  padding: 0 0;
+}
+
 .logo {
   text-align: center;
 }
@@ -9,21 +13,9 @@
 }
 
 @media (max-width: 426px) {
-  .logo a {
-    font-size: 30px;
-  }
+.logo a {
+  font-size: 20px;
 }
-
-@media (max-width: 376px) {
-  .logo a {
-    font-size: 25px;
-  }
-}
-
-@media (max-width: 321px) {
-  .logo a {
-    font-size: 20px;
-  }
 }
 
 .navbar {
@@ -35,17 +27,15 @@
   list-style: none;
 }
 
-
 @media (max-width: 426px) {
-  .navbar ul {
-    padding-left: 0;
-  }
+.navbar ul {
+  padding-left: 0;
+}
 }
 
 .navbar li {
-    display: inline;
+  display: inline;
 }
-
 
 .navbar a {
   color: #363635;
@@ -59,27 +49,26 @@
 }
 
 .navbar a:hover {
-  transform: scale(1.085);
+transform: scale(1.085);
 }
 
-
 @media (max-width: 426px) {
-  .navbar a {
-    margin-right: 20px;
-  }
+.navbar a {
+  margin-right: 20px;
+}
 }
 
 @media (max-width: 376px) {
-  .navbar a {
-    margin-right: 10px;
-  }
+.navbar a {
+  margin-right: 10px;
+}
 }
 
 @media (max-width: 321px) {
-  .navbar a {
-    margin-right: 12px;
-    font-size: 13px;
-  }
+.navbar a {
+  margin-right: 12px;
+  font-size: 13px;
+}
 }
 
 .hero {

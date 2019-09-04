@@ -93,12 +93,17 @@
   background: white;
   color: #363635;
   top: -9px;
-  right: 210px;
+  right: 194px;
+}
+
+@media (max-width: 1065px) {
+  .bio {
+    right: 69px;
+  }
 }
 
 @media (max-width: 769px) {
   .bio {
-    top: -5px;
     right: 22px;
   }
 }

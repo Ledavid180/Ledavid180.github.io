@@ -82,6 +82,12 @@
     }
   }
 
+  @media (max-width: 426px) {
+    .projectimage {
+      visibility: hidden;
+    }
+  }
+
 .projectnames {
     text-transform: uppercase;
     font-size: 35px;
@@ -159,11 +165,25 @@
 }
 
 .cardbottom {
-    height: 200px;
-    width: 263px;
-    background: linear-gradient(#E6D2C9, white);
-    padding: 5px 5px;
-    margin-top: 30px;
+  height: 200px;
+  width: 263px;
+  background: linear-gradient(#E6D2C9, white);
+  padding: 5px 5px;
+  margin-top: 30px;
+}
+
+@media (max-width: 1025px) {
+  .cardbottom {
+    height: 151px;
+    width: 212px;
+  }
+
+}
+
+@media (max-width: 426px) {
+  .cardbottom {
+    visibility: hidden;
+  }
 }
 
 .overlay {
