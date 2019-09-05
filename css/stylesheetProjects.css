@@ -165,17 +165,15 @@
     margin-left: 76px;
   }
 }
-
 @media (max-width: 426px) {
-  .projectbuttons {
-    list-style:
+  .viewcodebtn {
+    margin-left: -25px;
+    margin-top: -31px;
   }
 }
-
-
 .imagehover ul {
-    list-style: none;
-    margin-top: -30px;
+  list-style: none;
+  margin-top: -30px;
 }
 
 .imagehover li {
@@ -224,22 +222,23 @@
 @media (max-width: 376px) {
   .cardbottom {
     width: 158px;
-    height: 236px;
+    height: 208px;
+  }
+  .descriptionofproject {
+    font-size: 13px;
   }
 }
 
 @media (max-width: 326px) {
   .cardbottom {
     width: 130px;
-    height: 220px;
+    height: 228px;
   }
   .projectnames {
     font-size: 20px;
   }
-  .descriptionofproject {
-    font-size: 13px;
-  }
 }
+
 footer {
   padding-top: 30px;
 }
@@ -247,6 +246,10 @@ footer {
 .fa-github, .fa-twitter, .fa-linkedin-in {
   height: 30px;
   width: 30px;
+}
+
+.fa-free-code-camp {
+  height: 32px;
 }
 
 .socialmedia {
