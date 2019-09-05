@@ -99,6 +99,7 @@
     position: relative;
 }
 
+
 .imagehover:hover {
     opacity: .5;
 }
@@ -118,6 +119,7 @@
 .imagehover:hover .viewcodebtn {
     display: inline;
 }
+
 
 .viewlivebtn {
     position: absolute;
@@ -155,6 +157,22 @@
     text-decoration: none;
 }
 
+@media (max-width: 769px) {
+  .viewlivebtn {
+    margin-left: -24px;
+  }  
+  .viewcodebtn {
+    margin-left: 76px;
+  }
+}
+
+@media (max-width: 426px) {
+  .projectbuttons {
+    list-style:
+  }
+}
+
+
 .imagehover ul {
     list-style: none;
     margin-top: -30px;
@@ -166,26 +184,62 @@
 
 .cardbottom {
   height: 200px;
-  width: 263px;
+  width: 360px;
   background: linear-gradient(#E6D2C9, white);
   padding: 5px 5px;
   margin-top: 30px;
 }
 
+@media (max-width: 469px) {
+  .projectimage {
+    display: none;
+  }
+}
+
 @media (max-width: 1025px) {
   .cardbottom {
-    height: 151px;
-    width: 212px;
+    height: 187px;
+    width: 293px;
   }
 
+}
+
+@media (max-width: 769px) {
+  .cardbottom {
+    width: 220px;
+    height: 204px;
+  }
 }
 
 @media (max-width: 426px) {
   .cardbottom {
-    visibility: hidden;
+    width: 183px;
+    height: 175px;    
+  }
+  .projectnames {
+    font-size: 25px;
   }
 }
 
+@media (max-width: 376px) {
+  .cardbottom {
+    width: 158px;
+    height: 236px;
+  }
+}
+
+@media (max-width: 326px) {
+  .cardbottom {
+    width: 130px;
+    height: 220px;
+  }
+  .projectnames {
+    font-size: 20px;
+  }
+  .descriptionofproject {
+    font-size: 13px;
+  }
+}
 footer {
   padding-top: 30px;
 }
@@ -203,6 +257,11 @@ footer {
 .socialmedia li {
   display: inline;
   padding-right: 20px;
+}
+
+@media (max-width: 426px) {
+  .socialmedia {
+  }
 }
 
 .overlay {

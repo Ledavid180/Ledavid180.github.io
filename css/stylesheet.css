@@ -8,7 +8,7 @@
 
 .logo a {
   color: #363635;
-  font-family: Segoe Script, Arial, Helvetica, sans-serif;
+  font-family: Segoe Script, Belltrap, Arial, Helvetica, sans-serif;
   text-decoration: none;
 }
 
@@ -141,7 +141,7 @@ transform: scale(1.085);
   .title {
     font-size: 30px;
     text-align: center;
-    padding-top: 0;
+    padding-top: 8px;
     margin-top: 0;
     margin-bottom: 0;
     padding-right: 0;
@@ -168,6 +168,18 @@ transform: scale(1.085);
 .socialmedia li {
   display: inline;
   padding-right: 20px;
+}
+
+@media (max-width: 426px) {
+  .socialmedia {
+    padding-left: 121px;
+  }
+}
+
+@media (max-width: 321px) {
+  .socialmedia {
+    padding-top: 8px;
+  }
 }
 
 .overlay {

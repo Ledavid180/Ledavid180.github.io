@@ -85,29 +85,30 @@
 .resume {
   margin-left: 15%;
 }
+
 .overlay {
-    position: absolute;
-    top: 0;left: 0;right: 0;bottom: 0;
-    z-index: 1;
-    background: #fff;
-    transition: all 500ms ease-in-out;
-    opacity: 1;
-    pointer-events: none;
+  position: absolute;
+  top: 0;left: 0;right: 0;bottom: 0;
+  z-index: 1;
+  background: #fff;
+  transition: all 500ms ease-in-out;
+  opacity: 1;
+  pointer-events: none;
 }
 
 .fade {
-    opacity: 0;
+  opacity: 0;
 }
 
 .lds-heart {
-    top: 50%;
-    left: 48%;
-    display: inline-block;
-    position: relative;
-    width: 64px;
-    height: 64px;
-    transform: rotate(45deg);
-    transform-origin: 32px 32px;
+  top: 50%;
+  left: 48%;
+  display: inline-block;
+  position: relative;
+  width: 64px;
+  height: 64px;
+  transform: rotate(45deg);
+  transform-origin: 32px 32px;
 }
 
 @media (max-width: 768px) {
@@ -128,11 +129,7 @@
   }
 }
 .lds-heart div {
-    position: absolute;
-    width: 26px;
-    height: 26px;
-    background: #E6D2C9;
-    animation: lds-heart 1.2s infinite cubic-bezier(0.215, 0.61, 0.355, 1);
+  S
 }
 .lds-heart div:after,
 .lds-heart div:before {
