@@ -133,7 +133,7 @@
 
 .lds-heart {
   top: 50%;
-  left: 48%;
+  left: 50%;
   display: inline-block;
   position: relative;
   width: 64px;
@@ -143,25 +143,31 @@
 }
 
 @media (max-width: 768px) {
-  .lds-heart {
-    left: 45%;
-  }
+.lds-heart {
+  left: 45%;
+}
 }
 
 @media (max-width: 426px) {
-  .lds-heart {
-    left: 40%;
-  }
+.lds-heart {
+  left: 40%;
+}
 }
 
 @media (max-width: 376px) {
-  .lds-heart {
-    top: 40%;
-  }
+.lds-heart {
+  top: 40%;
 }
+}
+
 .lds-heart div {
-  S
+  position: absolute;
+  width: 26px;
+  height: 26px;
+  background: #E6D2C9;
+  animation: lds-heart 1.2s infinite cubic-bezier(0.215, 0.61, 0.355, 1);
 }
+
 .lds-heart div:after,
 .lds-heart div:before {
   content: " ";
@@ -171,10 +177,11 @@
   height: 26px;
   background: #E6D2C9;
 }
+
 .lds-heart div:before {
   left: -17px;
   border-radius: 50% 0 0 50%;
-  }
+}
 .lds-heart div:after {
   top: -17px;
   border-radius: 50% 50% 0 0;
