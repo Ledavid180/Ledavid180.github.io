@@ -65,10 +65,10 @@ transform: scale(1.085);
 }
 
 @media (max-width: 321px) {
-.navbar a {
-  margin-right: 12px;
-  font-size: 13px;
-}
+  .navbar a {
+    margin-right: 12px;
+    font-size: 13px;
+  }
 }
 
 .hero {
